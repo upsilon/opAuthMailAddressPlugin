@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+binary: binary-indep
+
+build:
+
+.PHONY: build binary

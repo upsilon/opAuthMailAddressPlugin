@@ -1,0 +1,5 @@
+# deb package
+debian/files
+debian/*.substvars
+debian/*.debhelper.log
+debian/openpne3-auth-mailaddress/

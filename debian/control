@@ -1,0 +1,16 @@
+Source: openpne3-auth-mailaddress
+Section: web
+Priority: optional
+Maintainer: Kimura Youichi <kim.upsilon@bucyou.net>
+Build-Depends: debhelper (>= 7.0.50)
+Standards-Version: 3.8.0
+Homepage: http://www.openpne.jp/
+Vcs-Git: git://github.com/upsilon/opAuthMailAddressPlugin.git
+Vcs-Browser: http://github.com/upsilon/opAuthMailAddressPlugin
+
+Package: openpne3-auth-mailaddress
+Architecture: all
+Depends: ${misc:Depends}, openpne3 (>= 3.5.2)
+Provides: openpne3-auth
+Description: a social network platform (auth plugin)
+	This plugin provides user authentication using mail address.
